@@ -1,18 +1,20 @@
-# LAB - 28
+# LAB - 33
 
-## React external state practice
+## React context API
 
 ### Author: Leyi Li
 
 
 ### Links and Resources
-* [submission PR](https://github.com/401-advanced-javascript-leyla/lab-28-external-state/pulls)
+* [submission PR](https://github.com/401-advanced-javascript-leyla/lab-33/pulls)
+* [heroku](https://lab-33-leyla.herokuapp.com/)
+
 
 ### Modules
 #### `App`
-The App component render the Form component and also pass the props to the Form
-#### `Form`
-The Form component update the state according to the form input
+The App component render counter, increment and decrement components
+#### `CounterProvider`
+The ConterProvider component use the context API to host the count, increament and decreament functions so that the children components could use them with .consumer
 
 
 ### Setup
@@ -20,7 +22,6 @@ The Form component update the state according to the form input
 #### Running the app
 * `npm install`
 * `npm start`
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -41,4 +42,7 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 ### documentation
 `npm docs`
+
+### UML
+![UML](./lab-33-UML.jpg)
 
